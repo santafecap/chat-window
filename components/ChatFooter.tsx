@@ -117,14 +117,7 @@ const ChatFooter = ({
           </Box>
 
           <Flex>
-            <Upload
-              action={`${baseUrl}/api/upload`}
-              data={{account_id: accountId}}
-              headers={{'X-Requested-With': null}}
-              onStart={handleUploadStarted}
-              onSuccess={handleUploadSuccess}
-              onError={handleUploadError}
-            >
+           
               <Button
                 variant="link"
                 type="button"
