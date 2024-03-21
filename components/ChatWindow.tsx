@@ -692,7 +692,7 @@ class ChatWindow extends React.Component<Props, State> {
           <div ref={(el) => (this.scrollToEl = el)} />
         </Box>
 
-        {shouldDisplayBranding && <PapercupsBranding />}
+        
 
         <Box
           px={2}
