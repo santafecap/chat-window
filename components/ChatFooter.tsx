@@ -118,27 +118,7 @@ const ChatFooter = ({
 
           <Flex>
            
-              <Button
-                variant="link"
-                type="button"
-                disabled={isDisabled}
-                sx={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  borderRadius: '50%',
-                  height: '36px',
-                  width: '36px',
-                  padding: 0,
-                }}
-              >
-                <PaperclipIcon
-                  width={16}
-                  height={16}
-                  fill={error ? 'red' : 'gray'}
-                />
-              </Button>
-            </Upload>
+             
 
             <Button
               variant="primary"
